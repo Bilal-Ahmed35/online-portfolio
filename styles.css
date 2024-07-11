@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ce3434;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+#introduction, #about, #portfolio, #contact {
+    margin-bottom: 2em;
+}
+
+.project {
+    margin-bottom: 1em;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 0.5em;
+}
+
+#contact-form input, #contact-form button {
+    margin-top: 0.5em;
+    padding: 0.5em;
+}
+
+/* Light Theme */
+body.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+header.light-theme {
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+
+/* Dark Theme */
+body.dark-theme {
+    background-color: #121212;
+    color: #fff;
+}
+
+header.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
